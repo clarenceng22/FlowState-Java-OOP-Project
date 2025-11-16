@@ -44,6 +44,14 @@ public class TaskManager {
             System.out.println("Invalid task number.");
         }
     }
+    
+    public ArrayList<Task> getTasks() {
+        return tasks;
+    }
+    
+    public void updateTask(int index, Task task) {
+        tasks.set(index, task);
+    }
 
     public void saveTasks() {
         storage.saveData(tasks);

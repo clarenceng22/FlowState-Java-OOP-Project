@@ -15,7 +15,6 @@ public class Task {
         this.completed = false;
     }
 
-    // Getters and setters (Encapsulation)
     public String getTitle() { return title; }
     public void setTitle(String title) { this.title = title; }
 
@@ -31,7 +30,6 @@ public class Task {
     public boolean isCompleted() { return completed; }
     public void setCompleted(boolean completed) { this.completed = completed; }
 
-    // Polymorphism placeholder
     public void displayTaskDetails() {
         System.out.println("Title: " + title);
         System.out.println("Description: " + description);
