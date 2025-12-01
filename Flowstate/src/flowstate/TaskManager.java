@@ -1,6 +1,5 @@
 package flowstate;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class TaskManager {
     private ArrayList<Task> tasks;
